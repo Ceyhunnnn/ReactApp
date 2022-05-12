@@ -1,7 +1,7 @@
 import React from 'react'
-import ProtpTypes from "prop-types";
 
  function navbar(props) {
+  
   return (
     <div>
       <h3>{props.title}</h3>
@@ -10,11 +10,11 @@ import ProtpTypes from "prop-types";
 }
 //zorunlu olan bir string title gönderilmeli
 
-navbar.propTypes={
-  title:ProtpTypes.string.isRequired
-};
-//default props
-navbar.defaultProps={
-  title:"Default Title"
-};
+// navbar.propTypes={
+//   title:ProtpTypes.string.isRequired
+// };
+// //default props
+// navbar.defaultProps={
+//   title:"Default Title"
+// };
 export default navbar;
